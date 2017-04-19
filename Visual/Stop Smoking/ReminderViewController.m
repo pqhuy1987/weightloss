@@ -75,39 +75,39 @@
             image = [UIImage imageNamed:@"ButtonRectangle.png"];
             
             float xPos = screenRect.size.width / 8.0;
-            mon = [self addButton:@"MON" frame:CGRectMake(0, 0, image.size.width, image.size.height) AndTag:REMINDER_VIEW_CONTROLLER_MON_TAG];
+            mon = [self addButton:@"MON" frame:CGRectMake(0, 0, image.size.width + 20, image.size.height) AndTag:REMINDER_VIEW_CONTROLLER_MON_TAG];
             mon.center = CGPointMake(xPos, 370);
             [mon addTarget:self action:@selector(buttonTaped:) forControlEvents:UIControlEventTouchUpInside];
             [[self view] addSubview:mon];
             
-            tue = [self addButton:@"TUE" frame:CGRectMake(0, 0, image.size.width, image.size.height) AndTag:REMINDER_VIEW_CONTROLLER_TUE_TAG];
+            tue = [self addButton:@"TUE" frame:CGRectMake(0, 0, image.size.width + 20, image.size.height) AndTag:REMINDER_VIEW_CONTROLLER_TUE_TAG];
             tue.center = CGPointMake(xPos * 3, 370);
             [tue addTarget:self action:@selector(buttonTaped:) forControlEvents:UIControlEventTouchUpInside];
             [[self view] addSubview:tue];
             
-            wed = [self addButton:@"WED" frame:CGRectMake(0, 0, image.size.width, image.size.height) AndTag:REMINDER_VIEW_CONTROLLER_WED_TAG];
+            wed = [self addButton:@"WED" frame:CGRectMake(0, 0, image.size.width + 20, image.size.height) AndTag:REMINDER_VIEW_CONTROLLER_WED_TAG];
             wed.center = CGPointMake(xPos * 5, 370);
             [wed addTarget:self action:@selector(buttonTaped:) forControlEvents:UIControlEventTouchUpInside];
             [[self view] addSubview:wed];
             
-            thu = [self addButton:@"THR" frame:CGRectMake(0, 0, image.size.width, image.size.height) AndTag:REMINDER_VIEW_CONTROLLER_THU_TAG];
+            thu = [self addButton:@"THR" frame:CGRectMake(0, 0, image.size.width + 20, image.size.height) AndTag:REMINDER_VIEW_CONTROLLER_THU_TAG];
             thu.center = CGPointMake(xPos * 7, 370);
             [thu addTarget:self action:@selector(buttonTaped:) forControlEvents:UIControlEventTouchUpInside];
             [[self view] addSubview:thu];
             
             xPos = screenRect.size.width / 8.0;
             
-            fri = [self addButton:@"FRI" frame:CGRectMake(0, 0, image.size.width, image.size.height) AndTag:REMINDER_VIEW_CONTROLLER_FRI_TAG];
+            fri = [self addButton:@"FRI" frame:CGRectMake(0, 0, image.size.width + 20, image.size.height) AndTag:REMINDER_VIEW_CONTROLLER_FRI_TAG];
             fri.center = CGPointMake(xPos * 2, 470);
             [fri addTarget:self action:@selector(buttonTaped:) forControlEvents:UIControlEventTouchUpInside];
             [[self view] addSubview:fri];
             
-            sat = [self addButton:@"SAT" frame:CGRectMake(0, 0, image.size.width, image.size.height) AndTag:REMINDER_VIEW_CONTROLLER_SAT_TAG];
+            sat = [self addButton:@"SAT" frame:CGRectMake(0, 0, image.size.width + 20, image.size.height) AndTag:REMINDER_VIEW_CONTROLLER_SAT_TAG];
             sat.center = CGPointMake(xPos * 4, 470);
             [sat addTarget:self action:@selector(buttonTaped:) forControlEvents:UIControlEventTouchUpInside];
             [[self view] addSubview:sat];
             
-            sun = [self addButton:@"SUN" frame:CGRectMake(0, 0, image.size.width, image.size.height) AndTag:REMINDER_VIEW_CONTROLLER_SUN_TAG];
+            sun = [self addButton:@"SUN" frame:CGRectMake(0, 0, image.size.width + 20, image.size.height) AndTag:REMINDER_VIEW_CONTROLLER_SUN_TAG];
             sun.center = CGPointMake(xPos * 6, 470);
             [sun addTarget:self action:@selector(buttonTaped:) forControlEvents:UIControlEventTouchUpInside];
             [[self view] addSubview:sun];
